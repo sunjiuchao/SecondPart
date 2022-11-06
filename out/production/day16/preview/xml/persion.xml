@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--第一中：引入网络中的dtd-->
+<!DOCTYPE persons PUBLIC "dtd文件的名称","dtd文档的url">\
+<persons>
+        <person>
+            <name>张三</name>
+            <age>23</age>
+        </person>
+ </persons>
+<!--第二种：文件内部引入dtd-->
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persons[
+        <!ELEMENT persons (person)>
+        <!ELEMENT person (name,age)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        ]>
+<persons>
+    <person>
+        <name>张三</name>
+        <age>23</age>
+    </person>
+</persons>-->
+
+<!--第三种：引入本地dtd-->
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persons SYSTEM 'person.dtd'>
+<persons>
+    <person>
+        <name>张三</name>
+        <age>23</age>
+    </person>
+</persons
+>-->

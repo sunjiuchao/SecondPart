@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xsd约束-->
+<persons
+    xmlns:xsl="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="www.itheima.com"
+    xsl:schemaLocation="www.itheima.com person.xsd"
+>
+    <person id="001">
+        <name>张三</name>
+        <gender>男</gender>
+    </person>
+</persons>

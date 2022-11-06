@@ -1,0 +1,4 @@
+2022-11-02 16:42:36.133 [main] INFO  LogDemo.LogDemo01 - 用户输入的姓名格式有误：年芳18
+2022-11-02 16:45:02.942 [main] INFO  LogDemo.LogDemo01 - 用户输入的姓名格式有误：啊实打实的
+2022-11-02 16:45:17.863 [main] INFO  LogDemo.LogDemo01 - 用户输入的姓名为20
+2022-11-02 16:46:03.263 [main] INFO  LogDemo.LogDemo01 - 姓名格式有误：二十

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--学生类-->
+<students>
+<!--第一个学生-->
+    <student id="1">
+        <name>张三</name>
+        <age>12</age>
+    </student>
+    <!--第二个学生-->
+    <student id="2">
+        <name>李四</name>
+        <age>22</age>
+    </student>
+    <!--第三个学生-->
+    <student id="3">
+        <name>王五</name>
+        <age>18</age>
+    </student>
+
+    <teacher></teacher>
+</students>
